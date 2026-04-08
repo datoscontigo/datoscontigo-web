@@ -6,35 +6,35 @@ const DESTINATIONS = {
   tier1: {
     label: { es: "Destinos populares", pt: "Destinos populares", en: "Popular destinations" },
     countries: [
-      { code: "US", name: { es: "Estados Unidos", pt: "Estados Unidos", en: "United States" }, slug: "united-states", flag: "\u{1F1FA}\u{1F1F8}" },
-      { code: "ES", name: { es: "Espa\u00f1a", pt: "Espanha", en: "Spain" }, slug: "spain", flag: "\u{1F1EA}\u{1F1F8}" },
-      { code: "IT", name: { es: "Italia", pt: "It\u00e1lia", en: "Italy" }, slug: "italy", flag: "\u{1F1EE}\u{1F1F9}" },
-      { code: "FR", name: { es: "Francia", pt: "Fran\u00e7a", en: "France" }, slug: "france", flag: "\u{1F1EB}\u{1F1F7}" },
-      { code: "GB", name: { es: "Reino Unido", pt: "Reino Unido", en: "United Kingdom" }, slug: "united-kingdom", flag: "\u{1F1EC}\u{1F1E7}" },
-      { code: "DE", name: { es: "Alemania", pt: "Alemanha", en: "Germany" }, slug: "germany", flag: "\u{1F1E9}\u{1F1EA}" },
-      { code: "TR", name: { es: "Turqu\u00eda", pt: "Turquia", en: "Turkey" }, slug: "turkey", flag: "\u{1F1F9}\u{1F1F7}" },
+      { code: "US", name: { es: "Estados Unidos", pt: "Estados Unidos", en: "United States" }, slug: "united-states", flag: "🇺🇸" },
+      { code: "ES", name: { es: "España", pt: "Espanha", en: "Spain" }, slug: "spain", flag: "🇪🇸" },
+      { code: "IT", name: { es: "Italia", pt: "Itália", en: "Italy" }, slug: "italy", flag: "🇮🇹" },
+      { code: "FR", name: { es: "Francia", pt: "França", en: "France" }, slug: "france", flag: "🇫🇷" },
+      { code: "GB", name: { es: "Reino Unido", pt: "Reino Unido", en: "United Kingdom" }, slug: "united-kingdom", flag: "🇬🇧" },
+      { code: "DE", name: { es: "Alemania", pt: "Alemanha", en: "Germany" }, slug: "germany", flag: "🇩🇪" },
+      { code: "TR", name: { es: "Turquía", pt: "Turquia", en: "Turkey" }, slug: "turkey", flag: "🇹🇷" },
     ],
   },
   tier2: {
-    label: { es: "Asia, Medio Oriente y m\u00e1s", pt: "\u00c1sia, Oriente M\u00e9dio e mais", en: "Asia, Middle East & more" },
+    label: { es: "Asia, Medio Oriente y más", pt: "Ásia, Oriente Médio e mais", en: "Asia, Middle East & more" },
     countries: [
-      { code: "JP", name: { es: "Jap\u00f3n", pt: "Jap\u00e3o", en: "Japan" }, slug: "japan", flag: "\u{1F1EF}\u{1F1F5}" },
-      { code: "CA", name: { es: "Canad\u00e1", pt: "Canad\u00e1", en: "Canada" }, slug: "canada", flag: "\u{1F1E8}\u{1F1E6}" },
-      { code: "AE", name: { es: "Dub\u00e1i / EAU", pt: "Dubai / EAU", en: "Dubai / UAE" }, slug: "uae", flag: "\u{1F1E6}\u{1F1EA}" },
-      { code: "PT", name: { es: "Portugal", pt: "Portugal", en: "Portugal" }, slug: "portugal", flag: "\u{1F1F5}\u{1F1F9}" },
-      { code: "NL", name: { es: "Pa\u00edses Bajos", pt: "Pa\u00edses Baixos", en: "Netherlands" }, slug: "netherlands", flag: "\u{1F1F3}\u{1F1F1}" },
-      { code: "CH", name: { es: "Suiza", pt: "Su\u00ed\u00e7a", en: "Switzerland" }, slug: "switzerland", flag: "\u{1F1E8}\u{1F1ED}" },
+      { code: "JP", name: { es: "Japón", pt: "Japão", en: "Japan" }, slug: "japan", flag: "🇯🇵" },
+      { code: "CA", name: { es: "Canadá", pt: "Canadá", en: "Canada" }, slug: "canada", flag: "🇨🇦" },
+      { code: "AE", name: { es: "Dubái / EAU", pt: "Dubai / EAU", en: "Dubai / UAE" }, slug: "uae", flag: "🇦🇪" },
+      { code: "PT", name: { es: "Portugal", pt: "Portugal", en: "Portugal" }, slug: "portugal", flag: "🇵🇹" },
+      { code: "NL", name: { es: "Países Bajos", pt: "Países Baixos", en: "Netherlands" }, slug: "netherlands", flag: "🇳🇱" },
+      { code: "CH", name: { es: "Suiza", pt: "Suíça", en: "Switzerland" }, slug: "switzerland", flag: "🇨🇭" },
     ],
   },
   tier3: {
-    label: { es: "Viajes dentro de LATAM", pt: "Viagens na Am\u00e9rica Latina", en: "Intra-LATAM travel" },
+    label: { es: "Viajes dentro de LATAM", pt: "Viagens na América Latina", en: "Intra-LATAM travel" },
     countries: [
-      { code: "AR", name: { es: "Argentina", pt: "Argentina", en: "Argentina" }, slug: "argentina", flag: "\u{1F1E6}\u{1F1F7}" },
-      { code: "BR", name: { es: "Brasil", pt: "Brasil", en: "Brazil" }, slug: "brazil", flag: "\u{1F1E7}\u{1F1F7}" },
-      { code: "CO", name: { es: "Colombia", pt: "Col\u00f4mbia", en: "Colombia" }, slug: "colombia", flag: "\u{1F1E8}\u{1F1F4}" },
-      { code: "MX", name: { es: "M\u00e9xico", pt: "M\u00e9xico", en: "Mexico" }, slug: "mexico", flag: "\u{1F1F2}\u{1F1FD}" },
-      { code: "CL", name: { es: "Chile", pt: "Chile", en: "Chile" }, slug: "chile", flag: "\u{1F1E8}\u{1F1F1}" },
-      { code: "PE", name: { es: "Per\u00fa", pt: "Peru", en: "Peru" }, slug: "peru", flag: "\u{1F1F5}\u{1F1EA}" },
+      { code: "AR", name: { es: "Argentina", pt: "Argentina", en: "Argentina" }, slug: "argentina", flag: "🇦🇷" },
+      { code: "BR", name: { es: "Brasil", pt: "Brasil", en: "Brazil" }, slug: "brazil", flag: "🇧🇷" },
+      { code: "CO", name: { es: "Colombia", pt: "Colômbia", en: "Colombia" }, slug: "colombia", flag: "🇨🇴" },
+      { code: "MX", name: { es: "México", pt: "México", en: "Mexico" }, slug: "mexico", flag: "🇲🇽" },
+      { code: "CL", name: { es: "Chile", pt: "Chile", en: "Chile" }, slug: "chile", flag: "🇨🇱" },
+      { code: "PE", name: { es: "Perú", pt: "Peru", en: "Peru" }, slug: "peru", flag: "🇵🇪" },
     ],
   },
 };
@@ -59,111 +59,111 @@ const generatePackages = (countryCode) => {
 
 const i18n = {
   es: {
-    nav: { home: "Inicio", plans: "Destinos", how: "C\u00f3mo funciona", faq: "FAQ" },
+    nav: { home: "Inicio", plans: "Destinos", how: "Cómo funciona", faq: "FAQ" },
     hero: {
       title: "Tus datos, contigo\na donde vayas",
-      subtitle: "Datos m\u00f3viles instant\u00e1neos para tu viaje. Sin chip f\u00edsico. Sin roaming. Act\u00edvalos antes de salir.",
+      subtitle: "Datos móviles instantáneos para tu viaje. Sin chip físico. Sin roaming. Actívalos antes de salir.",
       cta: "Elige tu destino",
-      badge: "200+ destinos \u00b7 4G/LTE \u00b7 Activaci\u00f3n instant\u00e1nea",
+      badge: "200+ destinos · 4G/LTE · Activación instantánea",
     },
     destinations: {
-      title: "\u00bfA d\u00f3nde viajas?",
-      subtitle: "Selecciona tu destino y ll\u00e9vate tus datos",
+      title: "¿A dónde viajas?",
+      subtitle: "Selecciona tu destino y llévate tus datos",
     },
     packages: {
-      title: "Datos para", gb: "GB", days: "d\u00edas", unlimited: "Ilimitado",
-      throttle: "luego a", buy: "Comprar", back: "\u2190 Cambiar destino",
+      title: "Datos para", gb: "GB", days: "días", unlimited: "Ilimitado",
+      throttle: "luego a", buy: "Comprar", back: "← Cambiar destino",
       hotspot: "Hotspot incluido", activation: "Se activa al primer uso",
       popular: "Popular", bestValue: "Mejor valor",
     },
     how: {
-      title: "As\u00ed de f\u00e1cil",
+      title: "Así de fácil",
       steps: [
-        { n: "01", title: "Elige tu destino", desc: "Selecciona el pa\u00eds y el plan de datos que necesitas para tu viaje." },
-        { n: "02", title: "Paga seguro", desc: "Tarjeta de cr\u00e9dito/d\u00e9bito o criptomonedas. Pago en USD, sin sorpresas." },
+        { n: "01", title: "Elige tu destino", desc: "Selecciona el país y el plan de datos que necesitas para tu viaje." },
+        { n: "02", title: "Paga seguro", desc: "Tarjeta de crédito/débito o criptomonedas. Pago en USD, sin sorpresas." },
         { n: "03", title: "Recibe tu QR", desc: "Al instante en tu correo. Puedes instalarlo antes de viajar." },
-        { n: "04", title: "Aterriza conectado", desc: "Enciende datos m\u00f3viles al llegar y navega desde el primer segundo." },
+        { n: "04", title: "Aterriza conectado", desc: "Enciende datos móviles al llegar y navega desde el primer segundo." },
       ],
     },
     faq: {
       title: "Preguntas frecuentes",
       items: [
-        { q: "\u00bfQu\u00e9 es una eSIM y c\u00f3mo funciona?", a: "Una eSIM es una tarjeta SIM digital integrada en tu tel\u00e9fono. En lugar de un chip f\u00edsico, se instala escaneando un c\u00f3digo QR que te enviamos por correo. Tu l\u00ednea local sigue funcionando." },
-        { q: "\u00bfC\u00f3mo s\u00e9 si mi tel\u00e9fono es compatible?", a: "La mayor\u00eda de los iPhone desde el XS/XR, Samsung Galaxy S20+, Google Pixel 3+ y Huawei P40+ son compatibles. Tu tel\u00e9fono debe estar desbloqueado (libre de operador)." },
-        { q: "\u00bfPuedo compartir datos por hotspot?", a: "S\u00ed. Todos nuestros planes incluyen hotspot/tethering sin costo adicional." },
-        { q: "\u00bfCu\u00e1ndo se activan los datos?", a: "Los datos se activan cuando enciendes la conexi\u00f3n celular de la eSIM en el pa\u00eds de destino. Puedes instalar la eSIM antes de viajar." },
-        { q: "\u00bfQu\u00e9 m\u00e9todos de pago aceptan?", a: "Tarjetas de cr\u00e9dito y d\u00e9bito internacionales (Visa, Mastercard, Amex) v\u00eda Stripe, y criptomonedas." },
-        { q: "\u00bfPuedo recargar si se me acaban los datos?", a: "S\u00ed. Puedes comprar un plan adicional (top-up) para la misma eSIM sin necesidad de instalar una nueva." },
+        { q: "¿Qué es una eSIM y cómo funciona?", a: "Una eSIM es una tarjeta SIM digital integrada en tu teléfono. En lugar de un chip físico, se instala escaneando un código QR que te enviamos por correo. Tu línea local sigue funcionando." },
+        { q: "¿Cómo sé si mi teléfono es compatible?", a: "La mayoría de los iPhone desde el XS/XR, Samsung Galaxy S20+, Google Pixel 3+ y Huawei P40+ son compatibles. Tu teléfono debe estar desbloqueado (libre de operador)." },
+        { q: "¿Puedo compartir datos por hotspot?", a: "Sí. Todos nuestros planes incluyen hotspot/tethering sin costo adicional." },
+        { q: "¿Cuándo se activan los datos?", a: "Los datos se activan cuando enciendes la conexión celular de la eSIM en el país de destino. Puedes instalar la eSIM antes de viajar." },
+        { q: "¿Qué métodos de pago aceptan?", a: "Tarjetas de crédito y débito internacionales (Visa, Mastercard, Amex) vía Stripe, y criptomonedas." },
+        { q: "¿Puedo recargar si se me acaban los datos?", a: "Sí. Puedes comprar un plan adicional (top-up) para la misma eSIM sin necesidad de instalar una nueva." },
       ],
     },
     checkout: {
-      title: "Finalizar compra", email: "Correo electr\u00f3nico",
-      emailPlaceholder: "tu@correo.com", method: "M\u00e9todo de pago",
+      title: "Finalizar compra", email: "Correo electrónico",
+      emailPlaceholder: "tu@correo.com", method: "Método de pago",
       stripe: "Tarjeta (Stripe)", crypto: "Criptomonedas",
       summary: "Resumen", country: "Destino", plan: "Plan", total: "Total",
-      pay: "Pagar", processing: "Procesando...", success: "\u00a1Compra exitosa!",
-      successMsg: "Revisa tu correo. Recibir\u00e1s el QR de activaci\u00f3n en los pr\u00f3ximos minutos.",
-      back: "\u2190 Volver a planes",
-      disclaimer: "Datos Contigo es una marca comercial de AseguraPro LLC. Servicio de conectividad digital provisto a trav\u00e9s de operadores locales.",
+      pay: "Pagar", processing: "Procesando...", success: "¡Compra exitosa!",
+      successMsg: "Revisa tu correo. Recibirás el QR de activación en los próximos minutos.",
+      back: "← Volver a planes",
+      disclaimer: "Datos Contigo es una marca comercial de AseguraPro LLC. Servicio de conectividad digital.",
     },
     footer: {
       tagline: "Tus datos, contigo a donde vayas",
-      legal: "AseguraPro LLC \u2014 Todos los derechos reservados",
-      links: { terms: "T\u00e9rminos", privacy: "Privacidad", contact: "Contacto" },
+      legal: "AseguraPro LLC — Todos los derechos reservados",
+      links: { terms: "Términos", privacy: "Privacidad", contact: "Contacto" },
     },
     langLabel: "ES",
   },
   pt: {
-    nav: { home: "In\u00edcio", plans: "Destinos", how: "Como funciona", faq: "FAQ" },
+    nav: { home: "Início", plans: "Destinos", how: "Como funciona", faq: "FAQ" },
     hero: {
-      title: "Seus dados, com voc\u00ea\npara onde for",
-      subtitle: "Dados m\u00f3veis instant\u00e2neos para sua viagem. Sem chip f\u00edsico. Sem roaming. Ative antes de sair.",
+      title: "Seus dados, com você\npara onde for",
+      subtitle: "Dados móveis instantâneos para sua viagem. Sem chip físico. Sem roaming. Ative antes de sair.",
       cta: "Escolha seu destino",
-      badge: "200+ destinos \u00b7 4G/LTE \u00b7 Ativa\u00e7\u00e3o instant\u00e2nea",
+      badge: "200+ destinos · 4G/LTE · Ativação instantânea",
     },
     destinations: {
-      title: "Para onde voc\u00ea viaja?",
+      title: "Para onde você viaja?",
       subtitle: "Selecione seu destino e leve seus dados",
     },
     packages: {
       title: "Dados para", gb: "GB", days: "dias", unlimited: "Ilimitado",
-      throttle: "ap\u00f3s", buy: "Comprar", back: "\u2190 Mudar destino",
-      hotspot: "Hotspot inclu\u00eddo", activation: "Ativa no primeiro uso",
+      throttle: "após", buy: "Comprar", back: "← Mudar destino",
+      hotspot: "Hotspot incluído", activation: "Ativa no primeiro uso",
       popular: "Popular", bestValue: "Melhor valor",
     },
     how: {
       title: "Simples assim",
       steps: [
-        { n: "01", title: "Escolha seu destino", desc: "Selecione o pa\u00eds e o plano de dados para sua viagem." },
-        { n: "02", title: "Pague com seguran\u00e7a", desc: "Cart\u00e3o de cr\u00e9dito/d\u00e9bito ou cripto. Em USD, sem surpresas." },
+        { n: "01", title: "Escolha seu destino", desc: "Selecione o país e o plano de dados para sua viagem." },
+        { n: "02", title: "Pague com segurança", desc: "Cartão de crédito/débito ou cripto. Em USD, sem surpresas." },
         { n: "03", title: "Receba seu QR", desc: "Instantaneamente no seu e-mail. Instale antes de viajar." },
-        { n: "04", title: "Chegue conectado", desc: "Ligue os dados m\u00f3veis ao chegar e navegue desde o primeiro segundo." },
+        { n: "04", title: "Chegue conectado", desc: "Ligue os dados móveis ao chegar e navegue desde o primeiro segundo." },
       ],
     },
     faq: {
       title: "Perguntas frequentes",
       items: [
-        { q: "O que \u00e9 uma eSIM e como funciona?", a: "Uma eSIM \u00e9 um cart\u00e3o SIM digital integrado ao seu telefone. Instala-se escaneando um QR code. Sua linha local continua funcionando." },
-        { q: "Meu telefone \u00e9 compat\u00edvel?", a: "A maioria dos iPhone desde o XS/XR, Samsung Galaxy S20+, Google Pixel 3+ e Huawei P40+ s\u00e3o compat\u00edveis. Deve estar desbloqueado." },
+        { q: "O que é uma eSIM e como funciona?", a: "Uma eSIM é um cartão SIM digital integrado ao seu telefone. Instala-se escaneando um QR code. Sua linha local continua funcionando." },
+        { q: "Meu telefone é compatível?", a: "A maioria dos iPhone desde o XS/XR, Samsung Galaxy S20+, Google Pixel 3+ e Huawei P40+ são compatíveis. Deve estar desbloqueado." },
         { q: "Posso usar hotspot?", a: "Sim. Todos os planos incluem hotspot/tethering sem custo adicional." },
-        { q: "Quando os dados s\u00e3o ativados?", a: "Quando voc\u00ea liga a conex\u00e3o celular da eSIM no pa\u00eds de destino. Pode instalar antes de viajar." },
-        { q: "Quais m\u00e9todos de pagamento?", a: "Cart\u00f5es internacionais (Visa, Mastercard, Amex) via Stripe e criptomoedas." },
-        { q: "Posso recarregar?", a: "Sim. Voc\u00ea pode comprar um plano adicional (top-up) para a mesma eSIM." },
+        { q: "Quando os dados são ativados?", a: "Quando você liga a conexão celular da eSIM no país de destino. Pode instalar antes de viajar." },
+        { q: "Quais métodos de pagamento?", a: "Cartões internacionais (Visa, Mastercard, Amex) via Stripe e criptomoedas." },
+        { q: "Posso recarregar?", a: "Sim. Você pode comprar um plano adicional (top-up) para a mesma eSIM." },
       ],
     },
     checkout: {
       title: "Finalizar compra", email: "E-mail",
-      emailPlaceholder: "seu@email.com", method: "M\u00e9todo de pagamento",
-      stripe: "Cart\u00e3o (Stripe)", crypto: "Criptomoedas",
+      emailPlaceholder: "seu@email.com", method: "Método de pagamento",
+      stripe: "Cartão (Stripe)", crypto: "Criptomoedas",
       summary: "Resumo", country: "Destino", plan: "Plano", total: "Total",
       pay: "Pagar", processing: "Processando...", success: "Compra realizada!",
-      successMsg: "Verifique seu e-mail. Voc\u00ea receber\u00e1 o QR de ativa\u00e7\u00e3o em minutos.",
-      back: "\u2190 Voltar aos planos",
-      disclaimer: "Dados Contigo \u00e9 marca comercial da AseguraPro LLC. Servi\u00e7o de conectividade digital.",
+      successMsg: "Verifique seu e-mail. Você receberá o QR de ativação em minutos.",
+      back: "← Voltar aos planos",
+      disclaimer: "Dados Contigo é marca comercial da AseguraPro LLC. Serviço de conectividade digital.",
     },
     footer: {
-      tagline: "Seus dados, com voc\u00ea para onde for",
-      legal: "AseguraPro LLC \u2014 Todos os direitos reservados",
+      tagline: "Seus dados, com você para onde for",
+      legal: "AseguraPro LLC — Todos os direitos reservados",
       links: { terms: "Termos", privacy: "Privacidade", contact: "Contato" },
     },
     langLabel: "PT",
@@ -174,7 +174,7 @@ const i18n = {
       title: "Your data, with you\nwherever you go",
       subtitle: "Instant mobile data for your trip. No physical SIM. No roaming fees. Activate before you leave.",
       cta: "Choose your destination",
-      badge: "200+ destinations \u00b7 4G/LTE \u00b7 Instant activation",
+      badge: "200+ destinations · 4G/LTE · Instant activation",
     },
     destinations: {
       title: "Where are you traveling?",
@@ -182,7 +182,7 @@ const i18n = {
     },
     packages: {
       title: "Data for", gb: "GB", days: "days", unlimited: "Unlimited",
-      throttle: "then", buy: "Buy now", back: "\u2190 Change destination",
+      throttle: "then", buy: "Buy now", back: "← Change destination",
       hotspot: "Hotspot included", activation: "Activates on first use",
       popular: "Popular", bestValue: "Best value",
     },
@@ -213,12 +213,12 @@ const i18n = {
       summary: "Summary", country: "Destination", plan: "Plan", total: "Total",
       pay: "Pay", processing: "Processing...", success: "Purchase successful!",
       successMsg: "Check your email. You'll receive the activation QR code within minutes.",
-      back: "\u2190 Back to plans",
+      back: "← Back to plans",
       disclaimer: "Datos Contigo is a trademark of AseguraPro LLC. Digital connectivity service.",
     },
     footer: {
       tagline: "Your data, with you wherever you go",
-      legal: "AseguraPro LLC \u2014 All rights reserved",
+      legal: "AseguraPro LLC — All rights reserved",
       links: { terms: "Terms", privacy: "Privacy", contact: "Contact" },
     },
     langLabel: "EN",
@@ -226,22 +226,30 @@ const i18n = {
 };
 
 const C = {
-  bg: "#0A0E17", surface: "#111827", card: "#151d2e",
-  accent: "#00D4AA", accentGlow: "rgba(0,212,170,0.15)", sky: "#0EA5E9",
-  text: "#F1F5F9", muted: "#94A3B8", dim: "#64748B",
-  border: "#1e293b", amber: "#F59E0B", amberGlow: "rgba(245,158,11,0.12)",
-  grad: "linear-gradient(135deg, #00D4AA, #0EA5E9)",
+  bg: "#FFFFFF",
+  bgSoft: "#F7F9F8",
+  bgAlt: "#F0F4F2",
+  surface: "#FFFFFF",
+  border: "#E5E9E7",
+  borderStrong: "#D1D8D4",
+  green: "#49CC68",
+  greenDark: "#3BA855",
+  greenDarker: "#2E8643",
+  greenLight: "#E8F7ED",
+  greenGlow: "rgba(73,204,104,0.12)",
+  text: "#090D14",
+  textMuted: "#5A6670",
+  textDim: "#8A939A",
 };
 
 const Logo = ({ size = 36 }) => (
   <svg width={size} height={size} viewBox="0 0 56 56" fill="none">
-    <rect width="56" height="56" rx="14" fill="url(#logoGrad)" />
-    <defs><linearGradient id="logoGrad" x1="0" y1="0" x2="56" y2="56"><stop stopColor="#00D4AA"/><stop offset="1" stopColor="#0EA5E9"/></linearGradient></defs>
-    <circle cx="22" cy="32" r="16" stroke="#0A0E17" strokeWidth="0.7" opacity="0.15" fill="none"/>
-    <path d="M30 24 A10 10 0 0 1 40 14" stroke="#0A0E17" strokeWidth="2.8" strokeLinecap="round" fill="none"/>
-    <path d="M33 28 A16 16 0 0 1 48 8" stroke="#0A0E17" strokeWidth="1.8" strokeLinecap="round" opacity="0.45" fill="none"/>
-    <circle cx="22" cy="34" r="4" fill="#0A0E17"/>
-    <path d="M22 40 L19.5 37 L24.5 37 Z" fill="#0A0E17" opacity="0.7"/>
+    <rect width="56" height="56" rx="14" fill="#49CC68" />
+    <circle cx="22" cy="32" r="16" stroke="#FFFFFF" strokeWidth="0.8" opacity="0.3" fill="none"/>
+    <path d="M30 24 A10 10 0 0 1 40 14" stroke="#FFFFFF" strokeWidth="2.8" strokeLinecap="round" fill="none"/>
+    <path d="M33 28 A16 16 0 0 1 48 8" stroke="#FFFFFF" strokeWidth="1.8" strokeLinecap="round" opacity="0.55" fill="none"/>
+    <circle cx="22" cy="34" r="4" fill="#FFFFFF"/>
+    <path d="M22 40 L19.5 37 L24.5 37 Z" fill="#FFFFFF" opacity="0.8"/>
   </svg>
 );
 
@@ -259,8 +267,7 @@ export default function DatosContigoApp() {
   const howRef = useRef(null);
   const faqRef = useRef(null);
 
-  const sFont = "'DM Sans', 'Helvetica Neue', sans-serif";
-  const sMono = "'Space Mono', monospace";
+  const sFont = "'Proxima Nova', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif";
 
   const scrollTo = (ref) => { setView("home"); setTimeout(() => ref.current?.scrollIntoView({ behavior: "smooth" }), 100); };
   const goPackages = (c) => { setSelectedCountry(c); setView("packages"); window.scrollTo({ top: 0, behavior: "smooth" }); };
@@ -268,22 +275,28 @@ export default function DatosContigoApp() {
   const doPay = () => { if (!checkout.email) return; setCheckout(s => ({ ...s, status: "processing" })); setTimeout(() => setCheckout(s => ({ ...s, status: "success" })), 2400); };
 
   return (
-    <div style={{ fontFamily: sFont, background: C.bg, color: C.text, minHeight: "100vh" }}>
+    <div style={{ fontFamily: sFont, background: C.bg, color: C.text, minHeight: "100vh", WebkitFontSmoothing: "antialiased" }}>
       <style>{`
         * { margin:0; padding:0; box-sizing:border-box; }
         html { scroll-behavior:smooth; }
-        ::selection { background:${C.accent}; color:${C.bg}; }
-        input:focus { outline:2px solid ${C.accent}; outline-offset:-2px; }
-        @keyframes fadeUp { from{opacity:0;transform:translateY(24px)} to{opacity:1;transform:translateY(0)} }
+        body { background: ${C.bg}; }
+        ::selection { background:${C.green}; color:#FFFFFF; }
+        input:focus { outline:2px solid ${C.green}; outline-offset:-2px; }
+        @keyframes fadeUp { from{opacity:0;transform:translateY(16px)} to{opacity:1;transform:translateY(0)} }
         @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.6} }
-        @keyframes slideDown { from{opacity:0;transform:translateY(-10px)} to{opacity:1;transform:translateY(0)} }
-        .fu { animation:fadeUp .5s ease both }
-        .fu1{animation-delay:.08s} .fu2{animation-delay:.16s} .fu3{animation-delay:.24s}
-        .fu4{animation-delay:.32s} .fu5{animation-delay:.4s} .fu6{animation-delay:.48s}
-        .glow:hover { box-shadow:0 0 30px ${C.accentGlow}; transform:translateY(-2px); }
-        .chover:hover { transform:translateY(-3px); box-shadow:0 10px 32px rgba(0,0,0,.35); border-color:${C.accent}44 !important; }
-        .dhover:hover { transform:scale(1.03); border-color:${C.accent} !important; }
-        .dhover:hover .dflag { transform:scale(1.12); }
+        @keyframes slideDown { from{opacity:0;transform:translateY(-8px)} to{opacity:1;transform:translateY(0)} }
+        .fu { animation:fadeUp .45s ease both }
+        .fu1{animation-delay:.06s} .fu2{animation-delay:.12s} .fu3{animation-delay:.18s}
+        .fu4{animation-delay:.24s} .fu5{animation-delay:.3s} .fu6{animation-delay:.36s}
+        .btn-primary { transition: all .2s ease; }
+        .btn-primary:hover { background:${C.greenDark} !important; transform:translateY(-1px); }
+        .card-hover { transition: all .25s ease; }
+        .card-hover:hover { border-color:${C.green} !important; transform:translateY(-2px); box-shadow: 0 8px 24px rgba(9,13,20,0.06); }
+        .dest-card { transition: all .25s ease; }
+        .dest-card:hover { border-color:${C.green} !important; background:${C.greenLight} !important; }
+        .dest-card:hover .dest-flag { transform:scale(1.1); }
+        .link-nav { transition: color .15s ease; }
+        .link-nav:hover { color:${C.green} !important; }
         .desktop-nav { display:flex; }
         .mobile-burger { display:none; }
         .mobile-menu { display:none; }
@@ -295,72 +308,72 @@ export default function DatosContigoApp() {
           .pkg-grid { grid-template-columns:1fr !important; }
           .how-grid { grid-template-columns:1fr !important; }
           .pay-methods { flex-direction:column !important; }
-          .hero-badges { flex-direction:column !important; align-items:center !important; gap:14px !important; }
-          .footer-row { flex-direction:column !important; text-align:center !important; gap:14px !important; }
+          .hero-badges { flex-direction:column !important; align-items:flex-start !important; gap:20px !important; }
+          .footer-row { flex-direction:column !important; align-items:flex-start !important; gap:20px !important; }
         }
         @media (max-width:480px) {
           .dest-grid { grid-template-columns:repeat(2, 1fr) !important; }
         }
         @media (hover:none) {
-          .glow:hover,.chover:hover,.dhover:hover { transform:none; box-shadow:none; }
-          .dhover:active { transform:scale(0.97); }
-          .chover:active { transform:scale(0.98); }
+          .btn-primary:hover,.card-hover:hover,.dest-card:hover { transform:none; box-shadow:none; }
+          .dest-card:active { transform:scale(0.97); background:${C.greenLight}; }
+          .card-hover:active { transform:scale(0.99); }
         }
       `}</style>
 
-      <nav style={{ position:"fixed", top:0, left:0, right:0, zIndex:100, background:`${C.bg}ee`, backdropFilter:"blur(20px)", borderBottom:`1px solid ${C.border}`, padding:"0 16px" }}>
-        <div style={{ maxWidth:1200, margin:"0 auto", display:"flex", alignItems:"center", justifyContent:"space-between", height:60 }}>
-          <div onClick={() => { setView("home"); window.scrollTo({ top:0 }); setMenuOpen(false); }} style={{ cursor:"pointer", display:"flex", alignItems:"center", gap:8 }}>
-            <Logo size={32} />
-            <span style={{ fontWeight:700, fontSize:16, letterSpacing:"-0.02em" }}>
-              Datos <span style={{ color:C.accent }}>Contigo</span>
+      <nav style={{ position:"fixed", top:0, left:0, right:0, zIndex:100, background:"rgba(255,255,255,0.92)", backdropFilter:"blur(16px)", borderBottom:`1px solid ${C.border}`, padding:"0 20px" }}>
+        <div style={{ maxWidth:1200, margin:"0 auto", display:"flex", alignItems:"center", justifyContent:"space-between", height:68 }}>
+          <div onClick={() => { setView("home"); window.scrollTo({ top:0 }); setMenuOpen(false); }} style={{ cursor:"pointer", display:"flex", alignItems:"center", gap:10 }}>
+            <Logo size={34} />
+            <span style={{ fontWeight:600, fontSize:17, letterSpacing:"-0.01em", color:C.text }}>
+              Datos Contigo
             </span>
           </div>
-          <div className="desktop-nav" style={{ display:"flex", alignItems:"center", gap:24 }}>
+          <div className="desktop-nav" style={{ display:"flex", alignItems:"center", gap:32 }}>
             {[
               { label: t.nav.plans, action: () => scrollTo(plansRef) },
               { label: t.nav.how, action: () => scrollTo(howRef) },
               { label: t.nav.faq, action: () => scrollTo(faqRef) },
             ].map((item, i) => (
-              <span key={i} onClick={item.action} style={{ cursor:"pointer", fontSize:14, color:C.muted, transition:"color .2s" }}
-                onMouseOver={e => e.target.style.color = C.accent} onMouseOut={e => e.target.style.color = C.muted}
-              >{item.label}</span>
+              <span key={i} className="link-nav" onClick={item.action} style={{ cursor:"pointer", fontSize:14, color:C.textMuted, fontWeight:500 }}>
+                {item.label}
+              </span>
             ))}
-            <div style={{ display:"flex", gap:2, background:C.surface, borderRadius:8, padding:3 }}>
+            <div style={{ display:"flex", gap:1, background:C.bgAlt, borderRadius:8, padding:3 }}>
               {["es","pt","en"].map(l => (
                 <button key={l} onClick={() => setLang(l)} style={{
-                  border:"none", cursor:"pointer", padding:"5px 10px", borderRadius:6, fontSize:12, fontWeight:600,
-                  background: lang === l ? C.accent : "transparent",
-                  color: lang === l ? C.bg : C.muted,
-                  transition:"all .2s", fontFamily:sMono,
+                  border:"none", cursor:"pointer", padding:"6px 11px", borderRadius:6, fontSize:12, fontWeight:600,
+                  background: lang === l ? C.green : "transparent",
+                  color: lang === l ? "#FFFFFF" : C.textMuted,
+                  transition:"all .15s", fontFamily:sFont,
                 }}>{i18n[l].langLabel}</button>
               ))}
             </div>
           </div>
           <div className="mobile-burger" style={{ display:"none", alignItems:"center", gap:10 }}>
-            <div style={{ display:"flex", gap:2, background:C.surface, borderRadius:6, padding:2 }}>
+            <div style={{ display:"flex", gap:1, background:C.bgAlt, borderRadius:6, padding:2 }}>
               {["es","pt","en"].map(l => (
                 <button key={l} onClick={() => setLang(l)} style={{
-                  border:"none", cursor:"pointer", padding:"4px 8px", borderRadius:5, fontSize:11, fontWeight:600,
-                  background: lang === l ? C.accent : "transparent",
-                  color: lang === l ? C.bg : C.muted, fontFamily:sMono,
+                  border:"none", cursor:"pointer", padding:"5px 9px", borderRadius:5, fontSize:11, fontWeight:600,
+                  background: lang === l ? C.green : "transparent",
+                  color: lang === l ? "#FFFFFF" : C.textMuted, fontFamily:sFont,
                 }}>{i18n[l].langLabel}</button>
               ))}
             </div>
             <button onClick={() => setMenuOpen(!menuOpen)} style={{
               background:"none", border:"none", cursor:"pointer", padding:8,
-              display:"flex", flexDirection:"column", gap:4, width:36, height:36,
+              display:"flex", flexDirection:"column", gap:4, width:40, height:40,
               alignItems:"center", justifyContent:"center",
             }}>
-              <span style={{ display:"block", width:20, height:2, background:C.text, borderRadius:1, transition:"all .2s", transform: menuOpen ? "rotate(45deg) translateY(6px)" : "none" }} />
-              <span style={{ display:"block", width:20, height:2, background:C.text, borderRadius:1, transition:"all .2s", opacity: menuOpen ? 0 : 1 }} />
-              <span style={{ display:"block", width:20, height:2, background:C.text, borderRadius:1, transition:"all .2s", transform: menuOpen ? "rotate(-45deg) translateY(-6px)" : "none" }} />
+              <span style={{ display:"block", width:22, height:2, background:C.text, borderRadius:1, transition:"all .2s", transform: menuOpen ? "rotate(45deg) translateY(6px)" : "none" }} />
+              <span style={{ display:"block", width:22, height:2, background:C.text, borderRadius:1, transition:"all .2s", opacity: menuOpen ? 0 : 1 }} />
+              <span style={{ display:"block", width:22, height:2, background:C.text, borderRadius:1, transition:"all .2s", transform: menuOpen ? "rotate(-45deg) translateY(-6px)" : "none" }} />
             </button>
           </div>
         </div>
         <div className={`mobile-menu ${menuOpen ? "open" : ""}`} style={{
-          display:"none", flexDirection:"column", padding:"12px 0 16px",
-          borderTop:`1px solid ${C.border}`, gap:4,
+          display:"none", flexDirection:"column", padding:"8px 0 16px",
+          borderTop:`1px solid ${C.border}`, gap:2,
         }}>
           {[
             { label: t.nav.plans, action: () => { scrollTo(plansRef); setMenuOpen(false); } },
@@ -368,134 +381,266 @@ export default function DatosContigoApp() {
             { label: t.nav.faq, action: () => { scrollTo(faqRef); setMenuOpen(false); } },
           ].map((item, i) => (
             <button key={i} onClick={item.action} style={{
-              background:"none", border:"none", cursor:"pointer", padding:"14px 16px",
-              fontSize:16, color:C.muted, textAlign:"left", fontFamily:sFont,
+              background:"none", border:"none", cursor:"pointer", padding:"16px 20px",
+              fontSize:16, color:C.text, textAlign:"left", fontFamily:sFont, fontWeight:500,
               borderRadius:8, minHeight:48,
             }}>{item.label}</button>
           ))}
         </div>
       </nav>
 
-      <main style={{ paddingTop:60 }}>
+      <main style={{ paddingTop:68 }}>
         {view === "home" && (<>
-          <section style={{ position:"relative", padding:"70px 16px 60px", textAlign:"center", overflow:"hidden" }}>
-            <div style={{ position:"absolute", top:-120, left:"50%", transform:"translateX(-50%)", width:600, height:600, borderRadius:"50%", background:`radial-gradient(circle, ${C.accentGlow} 0%, transparent 70%)`, pointerEvents:"none" }} />
-            <div style={{ position:"relative", maxWidth:820, margin:"0 auto" }}>
-              <div className="fu" style={{ display:"inline-block", padding:"6px 16px", borderRadius:50, background:C.accentGlow, border:`1px solid ${C.accent}33`, fontSize:12, fontWeight:500, color:C.accent, marginBottom:26, fontFamily:sMono }}>
+          <section style={{ padding:"96px 20px 80px", background:C.bg }}>
+            <div style={{ maxWidth:1100, margin:"0 auto" }}>
+              <div className="fu" style={{
+                display:"inline-flex", alignItems:"center", gap:8,
+                padding:"7px 14px", borderRadius:100,
+                background:C.greenLight, color:C.greenDarker,
+                fontSize:13, fontWeight:500, marginBottom:28,
+                border:`1px solid ${C.green}33`,
+              }}>
+                <span style={{ width:6, height:6, borderRadius:"50%", background:C.green }} />
                 {t.hero.badge}
               </div>
-              <h1 className="fu fu1" style={{ fontSize:"clamp(32px,5.5vw,64px)", fontWeight:700, lineHeight:1.08, letterSpacing:"-0.03em", marginBottom:20, whiteSpace:"pre-line" }}>
+              <h1 className="fu fu1" style={{
+                fontSize:"clamp(36px,6.5vw,72px)", fontWeight:700,
+                lineHeight:1.05, letterSpacing:"-0.035em",
+                marginBottom:24, color:C.text, maxWidth:900,
+                whiteSpace:"pre-line",
+              }}>
                 {t.hero.title.split("\n").map((line, i) => (
-                  <span key={i}>{i === 1 && <br />}{i === 0 ? line : <span style={{ background:C.grad, WebkitBackgroundClip:"text", WebkitTextFillColor:"transparent" }}>{line}</span>}</span>
+                  <span key={i} style={{ display:"block" }}>
+                    {i === 1 ? <span style={{ color:C.green }}>{line}</span> : line}
+                  </span>
                 ))}
               </h1>
-              <p className="fu fu2" style={{ fontSize:"clamp(15px,3.5vw,18px)", color:C.muted, maxWidth:540, margin:"0 auto 34px", lineHeight:1.6 }}>{t.hero.subtitle}</p>
-              <button className="fu fu3 glow" onClick={() => scrollTo(plansRef)} style={{ border:"none", cursor:"pointer", padding:"15px 38px", borderRadius:12, background:C.grad, color:C.bg, fontWeight:700, fontSize:16, transition:"all .3s", fontFamily:sFont, width:"auto", maxWidth:"100%" }}>
+              <p className="fu fu2" style={{
+                fontSize:"clamp(16px,2.2vw,20px)", color:C.textMuted,
+                maxWidth:620, marginBottom:40, lineHeight:1.5,
+                fontWeight:400,
+              }}>
+                {t.hero.subtitle}
+              </p>
+              <button className="fu fu3 btn-primary" onClick={() => scrollTo(plansRef)} style={{
+                border:"none", cursor:"pointer", padding:"16px 36px", borderRadius:10,
+                background:C.green, color:"#FFFFFF", fontWeight:600, fontSize:16,
+                fontFamily:sFont, minHeight:52,
+              }}>
                 {t.hero.cta} →
               </button>
-              <div className="fu fu4 hero-badges" style={{ marginTop:44, display:"flex", justifyContent:"center", gap:32, flexWrap:"wrap" }}>
-                {[{ icon:"\u{1F512}", text:"Stripe & Crypto" }, { icon:"\u26A1", text: lang==="en"?"Instant QR":"QR instant\u00e1neo" }, { icon:"\u{1F4F6}", text:"4G / LTE" }, { icon:"\u{1F30E}", text:"200+ " + (lang==="en"?"countries":"pa\u00edses") }].map((b,i) => (
-                  <div key={i} style={{ display:"flex", alignItems:"center", gap:8, fontSize:13, color:C.dim }}>
-                    <span style={{ fontSize:16 }}>{b.icon}</span>
-                    <span style={{ fontFamily:sMono, fontSize:11 }}>{b.text}</span>
+              <div className="fu fu4 hero-badges" style={{
+                marginTop:56, display:"flex", gap:40, flexWrap:"wrap",
+              }}>
+                {[
+                  { label: lang==="en"?"Countries":lang==="pt"?"Países":"Países", value:"200+" },
+                  { label: lang==="en"?"Network":lang==="pt"?"Rede":"Red", value:"4G / LTE" },
+                  { label: lang==="en"?"Delivery":lang==="pt"?"Entrega":"Entrega", value: lang==="en"?"Instant":"Instantánea" },
+                  { label: lang==="en"?"Payment":lang==="pt"?"Pagamento":"Pago", value:"Stripe + Crypto" },
+                ].map((s,i) => (
+                  <div key={i}>
+                    <div style={{ fontSize:22, fontWeight:700, color:C.text, letterSpacing:"-0.01em" }}>{s.value}</div>
+                    <div style={{ fontSize:13, color:C.textDim, marginTop:2 }}>{s.label}</div>
                   </div>
                 ))}
               </div>
             </div>
           </section>
 
-          <section ref={plansRef} style={{ padding:"50px 16px 70px", maxWidth:1200, margin:"0 auto" }}>
-            <div style={{ textAlign:"center", marginBottom:44 }}>
-              <h2 className="fu" style={{ fontSize:"clamp(24px,4vw,40px)", fontWeight:700, letterSpacing:"-0.02em", marginBottom:10 }}>{t.destinations.title}</h2>
-              <p className="fu fu1" style={{ color:C.muted, fontSize:16 }}>{t.destinations.subtitle}</p>
-            </div>
-            {Object.entries(DESTINATIONS).map(([tierKey, tier]) => (
-              <div key={tierKey} style={{ marginBottom:36 }}>
-                <div style={{ fontSize:12, fontWeight:600, color:C.dim, textTransform:"uppercase", letterSpacing:"0.06em", marginBottom:14, fontFamily:sMono }}>
-                  {tier.label[lang]}
-                </div>
-                <div className="dest-grid" style={{ display:"grid", gridTemplateColumns:"repeat(auto-fill, minmax(140px, 1fr))", gap:12 }}>
-                  {tier.countries.map((c, i) => (
-                    <div key={c.code} className={`dhover fu fu${Math.min(i+1,6)}`} onClick={() => goPackages(c)}
-                      style={{ background:C.card, border:`1px solid ${C.border}`, borderRadius:14, padding:"22px 12px", cursor:"pointer", textAlign:"center", transition:"all .3s", minHeight:48 }}>
-                      <div className="dflag" style={{ fontSize:36, marginBottom:8, transition:"transform .3s" }}>{c.flag}</div>
-                      <div style={{ fontWeight:600, fontSize:13 }}>{c.name[lang]}</div>
-                    </div>
-                  ))}
-                </div>
+          <section ref={plansRef} style={{ padding:"80px 20px", background:C.bgSoft, borderTop:`1px solid ${C.border}`, borderBottom:`1px solid ${C.border}` }}>
+            <div style={{ maxWidth:1100, margin:"0 auto" }}>
+              <div style={{ marginBottom:48 }}>
+                <h2 className="fu" style={{
+                  fontSize:"clamp(28px,4.5vw,44px)", fontWeight:700,
+                  letterSpacing:"-0.025em", marginBottom:12, color:C.text,
+                }}>
+                  {t.destinations.title}
+                </h2>
+                <p className="fu fu1" style={{ color:C.textMuted, fontSize:17, maxWidth:600 }}>
+                  {t.destinations.subtitle}
+                </p>
               </div>
-            ))}
+              {Object.entries(DESTINATIONS).map(([tierKey, tier]) => (
+                <div key={tierKey} style={{ marginBottom:40 }}>
+                  <div style={{
+                    fontSize:12, fontWeight:600, color:C.textDim,
+                    textTransform:"uppercase", letterSpacing:"0.08em",
+                    marginBottom:16,
+                  }}>
+                    {tier.label[lang]}
+                  </div>
+                  <div className="dest-grid" style={{
+                    display:"grid",
+                    gridTemplateColumns:"repeat(auto-fill, minmax(150px, 1fr))",
+                    gap:12,
+                  }}>
+                    {tier.countries.map((c, i) => (
+                      <div key={c.code} className={`dest-card fu fu${Math.min(i+1,6)}`} onClick={() => goPackages(c)}
+                        style={{
+                          background:C.bg, border:`1px solid ${C.border}`,
+                          borderRadius:12, padding:"24px 16px",
+                          cursor:"pointer", textAlign:"left", minHeight:110,
+                          display:"flex", flexDirection:"column", justifyContent:"space-between",
+                        }}>
+                        <div className="dest-flag" style={{ fontSize:32, transition:"transform .25s ease" }}>{c.flag}</div>
+                        <div style={{ fontWeight:600, fontSize:14, color:C.text, marginTop:12 }}>
+                          {c.name[lang]}
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              ))}
+            </div>
           </section>
 
-          <section ref={howRef} style={{ padding:"70px 16px", background:`linear-gradient(180deg, ${C.surface} 0%, ${C.bg} 100%)` }}>
-            <div style={{ maxWidth:1000, margin:"0 auto" }}>
-              <h2 style={{ textAlign:"center", fontSize:"clamp(24px,4vw,40px)", fontWeight:700, letterSpacing:"-0.02em", marginBottom:50 }}>{t.how.title}</h2>
-              <div className="how-grid" style={{ display:"grid", gridTemplateColumns:"repeat(auto-fit, minmax(200px, 1fr))", gap:20 }}>
+          <section ref={howRef} style={{ padding:"96px 20px", background:C.bg }}>
+            <div style={{ maxWidth:1100, margin:"0 auto" }}>
+              <h2 style={{
+                fontSize:"clamp(28px,4.5vw,44px)", fontWeight:700,
+                letterSpacing:"-0.025em", marginBottom:56, color:C.text,
+              }}>
+                {t.how.title}
+              </h2>
+              <div className="how-grid" style={{ display:"grid", gridTemplateColumns:"repeat(auto-fit, minmax(240px, 1fr))", gap:24 }}>
                 {t.how.steps.map((step, i) => (
-                  <div key={i} className={`fu fu${i+1}`} style={{ background:C.card, border:`1px solid ${C.border}`, borderRadius:14, padding:"28px 22px", position:"relative" }}>
-                    <div style={{ position:"absolute", top:14, right:14, fontFamily:sMono, fontSize:44, fontWeight:700, color:`${C.accent}0D` }}>{step.n}</div>
-                    <div style={{ fontFamily:sMono, fontSize:13, color:C.accent, fontWeight:700, marginBottom:12 }}>{step.n}</div>
-                    <h3 style={{ fontSize:16, fontWeight:600, marginBottom:8 }}>{step.title}</h3>
-                    <p style={{ fontSize:14, color:C.muted, lineHeight:1.6 }}>{step.desc}</p>
+                  <div key={i} className={`fu fu${i+1}`} style={{
+                    background:C.bg, border:`1px solid ${C.border}`,
+                    borderRadius:14, padding:"32px 28px",
+                    display:"flex", flexDirection:"column", gap:12,
+                  }}>
+                    <div style={{
+                      width:40, height:40, borderRadius:10,
+                      background:C.greenLight, color:C.greenDarker,
+                      display:"flex", alignItems:"center", justifyContent:"center",
+                      fontWeight:700, fontSize:14, marginBottom:8,
+                    }}>{step.n}</div>
+                    <h3 style={{ fontSize:18, fontWeight:600, color:C.text, letterSpacing:"-0.01em" }}>{step.title}</h3>
+                    <p style={{ fontSize:15, color:C.textMuted, lineHeight:1.55 }}>{step.desc}</p>
                   </div>
                 ))}
               </div>
             </div>
           </section>
 
-          <section ref={faqRef} style={{ padding:"70px 16px", maxWidth:720, margin:"0 auto" }}>
-            <h2 style={{ textAlign:"center", fontSize:"clamp(24px,4vw,40px)", fontWeight:700, letterSpacing:"-0.02em", marginBottom:44 }}>{t.faq.title}</h2>
-            {t.faq.items.map((item, i) => (
-              <div key={i} style={{ borderBottom:`1px solid ${C.border}`, padding:"18px 0" }}>
-                <div onClick={() => setOpenFaq(openFaq === i ? null : i)} style={{ cursor:"pointer", display:"flex", justifyContent:"space-between", alignItems:"center", minHeight:48 }}>
-                  <span style={{ fontWeight:500, fontSize:15, flex:1, paddingRight:12 }}>{item.q}</span>
-                  <span style={{ color:C.accent, fontSize:22, fontWeight:300, transform: openFaq === i ? "rotate(45deg)" : "none", transition:"transform .3s", flexShrink:0 }}>+</span>
+          <section ref={faqRef} style={{ padding:"80px 20px", background:C.bgSoft, borderTop:`1px solid ${C.border}` }}>
+            <div style={{ maxWidth:780, margin:"0 auto" }}>
+              <h2 style={{
+                fontSize:"clamp(28px,4.5vw,44px)", fontWeight:700,
+                letterSpacing:"-0.025em", marginBottom:40, color:C.text,
+              }}>
+                {t.faq.title}
+              </h2>
+              {t.faq.items.map((item, i) => (
+                <div key={i} style={{ borderBottom:`1px solid ${C.border}`, padding:"20px 0" }}>
+                  <div onClick={() => setOpenFaq(openFaq === i ? null : i)} style={{
+                    cursor:"pointer", display:"flex", justifyContent:"space-between",
+                    alignItems:"center", gap:16, minHeight:44,
+                  }}>
+                    <span style={{ fontWeight:500, fontSize:16, color:C.text, flex:1 }}>{item.q}</span>
+                    <span style={{
+                      color:C.green, fontSize:24, fontWeight:300,
+                      transform: openFaq === i ? "rotate(45deg)" : "none",
+                      transition:"transform .25s", flexShrink:0, width:24, textAlign:"center",
+                    }}>+</span>
+                  </div>
+                  {openFaq === i && <p style={{
+                    marginTop:12, fontSize:15, color:C.textMuted, lineHeight:1.65,
+                    animation:"fadeUp .3s ease",
+                  }}>{item.a}</p>}
                 </div>
-                {openFaq === i && <p style={{ marginTop:10, fontSize:14, color:C.muted, lineHeight:1.7, animation:"fadeUp .3s ease" }}>{item.a}</p>}
-              </div>
-            ))}
+              ))}
+            </div>
           </section>
         </>)}
 
         {view === "packages" && selectedCountry && (
-          <section style={{ padding:"36px 16px 70px", maxWidth:1100, margin:"0 auto" }}>
-            <button onClick={() => setView("home")} style={{ background:"none", border:"none", cursor:"pointer", color:C.accent, fontSize:14, fontWeight:500, marginBottom:28, fontFamily:sFont, minHeight:44 }}>{t.packages.back}</button>
-            <div style={{ display:"flex", alignItems:"center", gap:14, marginBottom:36 }}>
-              <span style={{ fontSize:44 }}>{selectedCountry.flag}</span>
+          <section style={{ padding:"48px 20px 80px", maxWidth:1100, margin:"0 auto" }}>
+            <button onClick={() => setView("home")} style={{
+              background:"none", border:"none", cursor:"pointer",
+              color:C.green, fontSize:14, fontWeight:600,
+              marginBottom:32, fontFamily:sFont, minHeight:44, padding:0,
+            }}>{t.packages.back}</button>
+            <div style={{ display:"flex", alignItems:"center", gap:16, marginBottom:40 }}>
+              <span style={{ fontSize:48 }}>{selectedCountry.flag}</span>
               <div>
-                <h2 style={{ fontSize:"clamp(20px,4vw,34px)", fontWeight:700, letterSpacing:"-0.02em" }}>{t.packages.title} {selectedCountry.name[lang]}</h2>
-                <p style={{ color:C.muted, fontSize:13, marginTop:4 }}>4G / LTE</p>
+                <h2 style={{
+                  fontSize:"clamp(24px,4vw,36px)", fontWeight:700,
+                  letterSpacing:"-0.025em", color:C.text,
+                }}>
+                  {t.packages.title} {selectedCountry.name[lang]}
+                </h2>
+                <p style={{ color:C.textMuted, fontSize:14, marginTop:4 }}>4G / LTE</p>
               </div>
             </div>
-            <div className="pkg-grid" style={{ display:"grid", gridTemplateColumns:"repeat(auto-fill, minmax(270px, 1fr))", gap:14 }}>
+            <div className="pkg-grid" style={{
+              display:"grid", gridTemplateColumns:"repeat(auto-fill, minmax(280px, 1fr))", gap:16,
+            }}>
               {generatePackages(selectedCountry.code).map((pkg, i) => {
                 const isPop = i === 2, isBest = i === 4;
                 return (
-                  <div key={pkg.id} className={`chover fu fu${Math.min(i+1,6)}`}
-                    style={{ background:C.card, border:`1px solid ${isPop ? C.accent+"55" : C.border}`, borderRadius:14, padding:"24px 20px", transition:"all .3s", position:"relative" }}>
-                    {isPop && <div style={{ position:"absolute", top:-1, left:20, right:20, height:3, borderRadius:"0 0 3px 3px", background:C.grad }} />}
+                  <div key={pkg.id} className={`card-hover fu fu${Math.min(i+1,6)}`} style={{
+                    background:C.bg,
+                    border:`1px solid ${isPop ? C.green : C.border}`,
+                    borderRadius:14, padding:"28px 24px",
+                    position:"relative",
+                    boxShadow: isPop ? "0 4px 16px rgba(73,204,104,0.08)" : "none",
+                  }}>
                     {(isPop || isBest) && (
-                      <div style={{ display:"inline-block", padding:"3px 10px", borderRadius:6, background: isPop ? C.accentGlow : C.amberGlow, border:`1px solid ${isPop ? C.accent+"33" : C.amber+"33"}`, fontSize:11, fontWeight:600, color: isPop ? C.accent : C.amber, marginBottom:14, fontFamily:sMono }}>
+                      <div style={{
+                        display:"inline-block", padding:"4px 10px", borderRadius:6,
+                        background: C.greenLight, color: C.greenDarker,
+                        fontSize:11, fontWeight:600, marginBottom:16,
+                        textTransform:"uppercase", letterSpacing:"0.04em",
+                      }}>
                         {isPop ? t.packages.popular : t.packages.bestValue}
                       </div>
                     )}
-                    <div style={{ marginBottom:14 }}>
-                      <span style={{ fontSize:32, fontWeight:700, fontFamily:sMono }}>{pkg.unlimited ? "\u221E" : pkg.gb}</span>
-                      {!pkg.unlimited && <span style={{ fontSize:15, color:C.muted, marginLeft:4 }}>{t.packages.gb}</span>}
-                      {pkg.unlimited && <span style={{ display:"block", fontSize:12, color:C.dim, marginTop:4, fontFamily:sMono }}>{t.packages.unlimited} \u00b7 {t.packages.throttle} {pkg.throttle}</span>}
-                    </div>
-                    <div style={{ display:"flex", gap:14, marginBottom:16, fontSize:13, color:C.muted }}>
-                      <span>{pkg.days} {t.packages.days}</span><span>{pkg.networks.join(" / ")}</span>
-                    </div>
-                    <div style={{ display:"flex", flexDirection:"column", gap:5, marginBottom:20, fontSize:12, color:C.dim }}>
-                      <span>{t.packages.hotspot}</span><span>{t.packages.activation}</span>
-                    </div>
-                    <div style={{ display:"flex", alignItems:"center", justifyContent:"space-between" }}>
-                      <div>
-                        <span style={{ fontSize:24, fontWeight:700, color:C.accent, fontFamily:sMono }}>${pkg.price.toFixed(2)}</span>
-                        <span style={{ fontSize:12, color:C.dim, marginLeft:4 }}>USD</span>
+                    <div style={{ marginBottom:16 }}>
+                      <div style={{ display:"flex", alignItems:"baseline", gap:6 }}>
+                        <span style={{ fontSize:36, fontWeight:700, color:C.text, letterSpacing:"-0.02em" }}>
+                          {pkg.unlimited ? "∞" : pkg.gb}
+                        </span>
+                        {!pkg.unlimited && (
+                          <span style={{ fontSize:16, color:C.textMuted, fontWeight:500 }}>
+                            {t.packages.gb}
+                          </span>
+                        )}
                       </div>
-                      <button className="glow" onClick={() => goBuy(pkg)} style={{ border:"none", cursor:"pointer", padding:"12px 22px", borderRadius:10, background:C.grad, color:C.bg, fontWeight:600, fontSize:14, transition:"all .3s", fontFamily:sFont, minHeight:44 }}>{t.packages.buy}</button>
+                      {pkg.unlimited && (
+                        <div style={{ fontSize:12, color:C.textDim, marginTop:4 }}>
+                          {t.packages.unlimited} · {t.packages.throttle} {pkg.throttle}
+                        </div>
+                      )}
+                    </div>
+                    <div style={{ display:"flex", flexDirection:"column", gap:8, marginBottom:24, fontSize:14, color:C.textMuted }}>
+                      <div style={{ display:"flex", alignItems:"center", gap:8 }}>
+                        <span style={{ color:C.green, fontWeight:700 }}>✓</span> {pkg.days} {t.packages.days}
+                      </div>
+                      <div style={{ display:"flex", alignItems:"center", gap:8 }}>
+                        <span style={{ color:C.green, fontWeight:700 }}>✓</span> {t.packages.hotspot}
+                      </div>
+                      <div style={{ display:"flex", alignItems:"center", gap:8 }}>
+                        <span style={{ color:C.green, fontWeight:700 }}>✓</span> {t.packages.activation}
+                      </div>
+                    </div>
+                    <div style={{
+                      display:"flex", alignItems:"center", justifyContent:"space-between",
+                      paddingTop:20, borderTop:`1px solid ${C.border}`,
+                    }}>
+                      <div>
+                        <span style={{ fontSize:28, fontWeight:700, color:C.text, letterSpacing:"-0.01em" }}>
+                          ${pkg.price.toFixed(2)}
+                        </span>
+                        <span style={{ fontSize:13, color:C.textDim, marginLeft:4 }}>USD</span>
+                      </div>
+                      <button className="btn-primary" onClick={() => goBuy(pkg)} style={{
+                        border:"none", cursor:"pointer", padding:"12px 22px", borderRadius:10,
+                        background:C.green, color:"#FFFFFF",
+                        fontWeight:600, fontSize:14, fontFamily:sFont, minHeight:44,
+                      }}>
+                        {t.packages.buy}
+                      </button>
                     </div>
                   </div>
                 );
@@ -505,87 +650,161 @@ export default function DatosContigoApp() {
         )}
 
         {view === "checkout" && selectedPackage && selectedCountry && (
-          <section style={{ padding:"36px 16px 70px", maxWidth:540, margin:"0 auto" }}>
-            <button onClick={() => setView("packages")} style={{ background:"none", border:"none", cursor:"pointer", color:C.accent, fontSize:14, fontWeight:500, marginBottom:28, fontFamily:sFont, minHeight:44 }}>{t.checkout.back}</button>
+          <section style={{ padding:"48px 20px 80px", maxWidth:560, margin:"0 auto" }}>
+            <button onClick={() => setView("packages")} style={{
+              background:"none", border:"none", cursor:"pointer",
+              color:C.green, fontSize:14, fontWeight:600,
+              marginBottom:32, fontFamily:sFont, minHeight:44, padding:0,
+            }}>{t.checkout.back}</button>
             {checkout.status === "success" ? (
-              <div className="fu" style={{ background:C.card, border:`1px solid ${C.accent}44`, borderRadius:18, padding:"40px 24px", textAlign:"center" }}>
-                <div style={{ fontSize:56, marginBottom:16 }}>{"\u2705"}</div>
-                <h2 style={{ fontSize:22, fontWeight:700, marginBottom:10 }}>{t.checkout.success}</h2>
-                <p style={{ color:C.muted, fontSize:15, lineHeight:1.6 }}>{t.checkout.successMsg}</p>
-                <button onClick={() => { setView("home"); window.scrollTo({ top:0 }); }} style={{ marginTop:28, border:"none", cursor:"pointer", padding:"14px 34px", borderRadius:10, background:C.grad, color:C.bg, fontWeight:600, fontSize:15, fontFamily:sFont, minHeight:48 }}>{t.nav.home}</button>
+              <div className="fu" style={{
+                background:C.bg, border:`1px solid ${C.green}`,
+                borderRadius:16, padding:"48px 32px", textAlign:"center",
+              }}>
+                <div style={{
+                  width:64, height:64, borderRadius:"50%",
+                  background:C.greenLight, margin:"0 auto 20px",
+                  display:"flex", alignItems:"center", justifyContent:"center",
+                  fontSize:32, color:C.green, fontWeight:700,
+                }}>✓</div>
+                <h2 style={{ fontSize:24, fontWeight:700, marginBottom:12, color:C.text, letterSpacing:"-0.02em" }}>
+                  {t.checkout.success}
+                </h2>
+                <p style={{ color:C.textMuted, fontSize:15, lineHeight:1.6, marginBottom:32 }}>
+                  {t.checkout.successMsg}
+                </p>
+                <button className="btn-primary" onClick={() => { setView("home"); window.scrollTo({ top:0 }); }} style={{
+                  border:"none", cursor:"pointer", padding:"14px 32px", borderRadius:10,
+                  background:C.green, color:"#FFFFFF",
+                  fontWeight:600, fontSize:15, fontFamily:sFont, minHeight:48,
+                }}>{t.nav.home}</button>
               </div>
             ) : (
               <div className="fu">
-                <h2 style={{ fontSize:24, fontWeight:700, marginBottom:24, letterSpacing:"-0.02em" }}>{t.checkout.title}</h2>
-                <div style={{ background:C.card, border:`1px solid ${C.border}`, borderRadius:14, padding:20, marginBottom:20 }}>
-                  <h3 style={{ fontSize:12, fontWeight:600, color:C.dim, textTransform:"uppercase", letterSpacing:"0.08em", marginBottom:14, fontFamily:sMono }}>{t.checkout.summary}</h3>
-                  <div style={{ display:"flex", justifyContent:"space-between", marginBottom:10 }}>
-                    <span style={{ color:C.muted, fontSize:14 }}>{t.checkout.country}</span>
-                    <span style={{ fontWeight:500, fontSize:14 }}>{selectedCountry.flag} {selectedCountry.name[lang]}</span>
+                <h2 style={{
+                  fontSize:28, fontWeight:700, marginBottom:32,
+                  letterSpacing:"-0.025em", color:C.text,
+                }}>{t.checkout.title}</h2>
+                <div style={{
+                  background:C.bgSoft, border:`1px solid ${C.border}`,
+                  borderRadius:12, padding:24, marginBottom:24,
+                }}>
+                  <h3 style={{
+                    fontSize:11, fontWeight:600, color:C.textDim,
+                    textTransform:"uppercase", letterSpacing:"0.08em", marginBottom:16,
+                  }}>{t.checkout.summary}</h3>
+                  <div style={{ display:"flex", justifyContent:"space-between", marginBottom:12 }}>
+                    <span style={{ color:C.textMuted, fontSize:14 }}>{t.checkout.country}</span>
+                    <span style={{ fontWeight:500, fontSize:14, color:C.text }}>
+                      {selectedCountry.flag} {selectedCountry.name[lang]}
+                    </span>
                   </div>
-                  <div style={{ display:"flex", justifyContent:"space-between", marginBottom:10 }}>
-                    <span style={{ color:C.muted, fontSize:14 }}>{t.checkout.plan}</span>
-                    <span style={{ fontWeight:500, fontSize:14 }}>{selectedPackage.unlimited ? t.packages.unlimited : `${selectedPackage.gb} GB`} \u00b7 {selectedPackage.days} {t.packages.days}</span>
+                  <div style={{ display:"flex", justifyContent:"space-between", marginBottom:12 }}>
+                    <span style={{ color:C.textMuted, fontSize:14 }}>{t.checkout.plan}</span>
+                    <span style={{ fontWeight:500, fontSize:14, color:C.text }}>
+                      {selectedPackage.unlimited ? t.packages.unlimited : `${selectedPackage.gb} GB`} · {selectedPackage.days} {t.packages.days}
+                    </span>
                   </div>
-                  <div style={{ borderTop:`1px solid ${C.border}`, paddingTop:10, marginTop:4, display:"flex", justifyContent:"space-between" }}>
-                    <span style={{ fontWeight:600, fontSize:16 }}>{t.checkout.total}</span>
-                    <span style={{ fontWeight:700, fontSize:22, color:C.accent, fontFamily:sMono }}>${selectedPackage.price.toFixed(2)}</span>
+                  <div style={{
+                    borderTop:`1px solid ${C.border}`, paddingTop:14, marginTop:4,
+                    display:"flex", justifyContent:"space-between", alignItems:"baseline",
+                  }}>
+                    <span style={{ fontWeight:600, fontSize:15, color:C.text }}>{t.checkout.total}</span>
+                    <span style={{ fontWeight:700, fontSize:24, color:C.text, letterSpacing:"-0.01em" }}>
+                      ${selectedPackage.price.toFixed(2)} <span style={{ fontSize:13, color:C.textDim, fontWeight:500 }}>USD</span>
+                    </span>
                   </div>
                 </div>
-                <div style={{ marginBottom:18 }}>
-                  <label style={{ display:"block", fontSize:13, fontWeight:500, marginBottom:7, color:C.muted }}>{t.checkout.email}</label>
+                <div style={{ marginBottom:20 }}>
+                  <label style={{ display:"block", fontSize:13, fontWeight:600, marginBottom:8, color:C.text }}>
+                    {t.checkout.email}
+                  </label>
                   <input type="email" placeholder={t.checkout.emailPlaceholder} value={checkout.email}
                     onChange={e => setCheckout(s => ({ ...s, email: e.target.value }))}
-                    style={{ width:"100%", padding:"14px 15px", background:C.surface, border:`1px solid ${C.border}`, borderRadius:10, color:C.text, fontSize:16, fontFamily:sFont }} />
+                    style={{
+                      width:"100%", padding:"14px 16px", background:C.bg,
+                      border:`1px solid ${C.borderStrong}`, borderRadius:10,
+                      color:C.text, fontSize:16, fontFamily:sFont,
+                    }} />
                 </div>
-                <div style={{ marginBottom:24 }}>
-                  <label style={{ display:"block", fontSize:13, fontWeight:500, marginBottom:9, color:C.muted }}>{t.checkout.method}</label>
+                <div style={{ marginBottom:28 }}>
+                  <label style={{ display:"block", fontSize:13, fontWeight:600, marginBottom:10, color:C.text }}>
+                    {t.checkout.method}
+                  </label>
                   <div className="pay-methods" style={{ display:"flex", gap:10 }}>
-                    {[{ id:"stripe", label:t.checkout.stripe, icon:"\u{1F4B3}" }, { id:"crypto", label:t.checkout.crypto, icon:"\u20BF" }].map(m => (
+                    {[
+                      { id:"stripe", label:t.checkout.stripe, icon:"💳" },
+                      { id:"crypto", label:t.checkout.crypto, icon:"₿" },
+                    ].map(m => (
                       <button key={m.id} onClick={() => setCheckout(s => ({ ...s, method: m.id }))} style={{
-                        flex:1, padding:"14px 14px", background: checkout.method === m.id ? C.accentGlow : C.surface,
-                        border:`1px solid ${checkout.method === m.id ? C.accent+"66" : C.border}`, borderRadius:10, cursor:"pointer",
+                        flex:1, padding:"14px 16px",
+                        background: checkout.method === m.id ? C.greenLight : C.bg,
+                        border:`1px solid ${checkout.method === m.id ? C.green : C.borderStrong}`,
+                        borderRadius:10, cursor:"pointer",
                         display:"flex", alignItems:"center", justifyContent:"center", gap:8,
-                        color: checkout.method === m.id ? C.accent : C.muted, fontWeight:500, fontSize:14, transition:"all .2s", fontFamily:sFont, minHeight:48,
-                      }}><span>{m.icon}</span> {m.label}</button>
+                        color: checkout.method === m.id ? C.greenDarker : C.text,
+                        fontWeight:500, fontSize:14, transition:"all .15s",
+                        fontFamily:sFont, minHeight:52,
+                      }}>
+                        <span>{m.icon}</span> {m.label}
+                      </button>
                     ))}
                   </div>
                 </div>
-                <button className="glow" onClick={doPay} disabled={checkout.status === "processing" || !checkout.email}
-                  style={{ width:"100%", border:"none", cursor:"pointer", padding:"16px", borderRadius:12,
-                    background: checkout.status === "processing" ? C.dim : C.grad,
-                    color:C.bg, fontWeight:700, fontSize:16, transition:"all .3s", fontFamily:sFont,
-                    opacity: !checkout.email ? 0.5 : 1, minHeight:52,
+                <button className="btn-primary" onClick={doPay}
+                  disabled={checkout.status === "processing" || !checkout.email}
+                  style={{
+                    width:"100%", border:"none",
+                    cursor: checkout.email ? "pointer" : "not-allowed",
+                    padding:"16px", borderRadius:10,
+                    background: checkout.status === "processing" ? C.greenDark : C.green,
+                    color:"#FFFFFF", fontWeight:600, fontSize:16, fontFamily:sFont,
+                    opacity: !checkout.email ? 0.5 : 1, minHeight:56,
                     animation: checkout.status === "processing" ? "pulse 1.5s infinite" : "none",
                   }}>
                   {checkout.status === "processing" ? t.checkout.processing : `${t.checkout.pay} $${selectedPackage.price.toFixed(2)} USD`}
                 </button>
-                <p style={{ marginTop:18, fontSize:11, color:C.dim, textAlign:"center", lineHeight:1.6 }}>{t.checkout.disclaimer}</p>
+                <p style={{
+                  marginTop:20, fontSize:12, color:C.textDim,
+                  textAlign:"center", lineHeight:1.6,
+                }}>{t.checkout.disclaimer}</p>
               </div>
             )}
           </section>
         )}
       </main>
 
-      <footer style={{ borderTop:`1px solid ${C.border}`, padding:"36px 16px", background:C.surface }}>
-        <div className="footer-row" style={{ maxWidth:1200, margin:"0 auto", display:"flex", flexWrap:"wrap", justifyContent:"space-between", alignItems:"center", gap:18 }}>
-          <div>
-            <div style={{ display:"flex", alignItems:"center", gap:8, marginBottom:4 }}>
-              <Logo size={24} />
-              <span style={{ fontWeight:700, fontSize:15 }}>Datos <span style={{ color:C.accent }}>Contigo</span></span>
+      <footer style={{
+        borderTop:`1px solid ${C.border}`,
+        padding:"56px 20px 32px", background:C.bgSoft,
+      }}>
+        <div className="footer-row" style={{
+          maxWidth:1100, margin:"0 auto",
+          display:"flex", justifyContent:"space-between", alignItems:"flex-start", gap:32,
+        }}>
+          <div style={{ maxWidth:340 }}>
+            <div style={{ display:"flex", alignItems:"center", gap:10, marginBottom:12 }}>
+              <Logo size={32} />
+              <span style={{ fontWeight:600, fontSize:16, color:C.text }}>Datos Contigo</span>
             </div>
-            <div style={{ fontSize:13, color:C.dim, fontStyle:"italic" }}>{t.footer.tagline}</div>
+            <div style={{ fontSize:14, color:C.textMuted, lineHeight:1.5 }}>
+              {t.footer.tagline}
+            </div>
           </div>
-          <div style={{ display:"flex", gap:18, fontSize:13, color:C.muted }}>
-            <span style={{ cursor:"pointer" }}>{t.footer.links.terms}</span>
-            <span style={{ cursor:"pointer" }}>{t.footer.links.privacy}</span>
-            <span style={{ cursor:"pointer" }}>{t.footer.links.contact}</span>
+          <div style={{ display:"flex", gap:28, fontSize:14, color:C.textMuted }}>
+            <span style={{ cursor:"pointer" }} className="link-nav">{t.footer.links.terms}</span>
+            <span style={{ cursor:"pointer" }} className="link-nav">{t.footer.links.privacy}</span>
+            <span style={{ cursor:"pointer" }} className="link-nav">{t.footer.links.contact}</span>
           </div>
-          <div style={{ fontSize:11, color:C.dim, width:"100%", textAlign:"center", paddingTop:18, borderTop:`1px solid ${C.border}`, fontFamily:sMono }}>
-            {"\u00A9"} {new Date().getFullYear()} {t.footer.legal} {"\u00b7"} datoscontigo.com
-          </div>
+        </div>
+        <div style={{
+          maxWidth:1100, margin:"40px auto 0",
+          paddingTop:24, borderTop:`1px solid ${C.border}`,
+          fontSize:12, color:C.textDim, textAlign:"left",
+        }}>
+          © {new Date().getFullYear()} {t.footer.legal} · datoscontigo.com
         </div>
       </footer>
     </div>
   );
-      }
+}
