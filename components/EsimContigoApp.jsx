@@ -243,13 +243,14 @@ const C = {
 };
 
 const Logo = ({ size = 36 }) => (
-  <svg width={size} height={size} viewBox="0 0 56 56" fill="none">
-    <rect width="56" height="56" rx="14" fill="#49CC68" />
-    <circle cx="22" cy="32" r="16" stroke="#FFFFFF" strokeWidth="0.8" opacity="0.3" fill="none"/>
-    <path d="M30 24 A10 10 0 0 1 40 14" stroke="#FFFFFF" strokeWidth="2.8" strokeLinecap="round" fill="none"/>
-    <path d="M33 28 A16 16 0 0 1 48 8" stroke="#FFFFFF" strokeWidth="1.8" strokeLinecap="round" opacity="0.55" fill="none"/>
-    <circle cx="22" cy="34" r="4" fill="#FFFFFF"/>
-    <path d="M22 40 L19.5 37 L24.5 37 Z" fill="#FFFFFF" opacity="0.8"/>
+  <svg width={size} height={size} viewBox="0 0 120 120" fill="none">
+    <circle cx="52" cy="68" r="42" fill="none" stroke="#49CC68" strokeWidth="6" strokeLinecap="round"/>
+    <ellipse cx="52" cy="68" rx="18" ry="42" fill="none" stroke="#49CC68" strokeWidth="5" strokeLinecap="round"/>
+    <line x1="10" y1="68" x2="94" y2="68" stroke="#49CC68" strokeWidth="5" strokeLinecap="round"/>
+    <circle cx="82" cy="38" r="5" fill="#49CC68"/>
+    <path d="M88 32 Q 98 32, 98 38" fill="none" stroke="#49CC68" strokeWidth="5" strokeLinecap="round"/>
+    <path d="M88 22 Q 108 22, 108 38" fill="none" stroke="#49CC68" strokeWidth="5" strokeLinecap="round"/>
+    <path d="M88 12 Q 118 12, 118 38" fill="none" stroke="#49CC68" strokeWidth="5" strokeLinecap="round"/>
   </svg>
 );
 
